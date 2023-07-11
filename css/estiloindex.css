@@ -1,0 +1,38 @@
+body {
+    background-image: url("../imagens/fundo.jpg");
+}
+
+hr {
+    background-color: white;
+    height: 5px;
+}
+
+.imgcursos {
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    float: center;
+    padding-right: 2px;
+}
+
+.dept1 {
+    text-align: justify;
+    color: #ff00cc;
+    font-family: Arial black;
+    font-weight: Bold;
+    font-size: 16px;
+}
+
+.pcenter {
+    text-align: center;
+    font-family: Arial black;
+    font-style: italic;
+    font-size: 13px;
+}
+.ileft {
+    border-radius: 8px;
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
