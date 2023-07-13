@@ -17,7 +17,6 @@ hr {
 
 .dept1 {
     text-align: justify;
-    color: #ff00cc;
     font-family: Arial black;
     font-weight: Bold;
     font-size: 16px;
@@ -29,10 +28,32 @@ hr {
     font-style: italic;
     font-size: 13px;
 }
+
 .ileft {
     border-radius: 8px;
     width: 250px;
     height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.imgsenactech {
+    border-radius: 8px;
+    width: 450px;
+    height: 320px;
+    float: left;
+    margin-right: 10px;
+}
+
+.logotiposenac2 {
+    border-radius: 8px;
+    width: 68px;
+    height: 68px;
     float: left;
     margin-right: 10px;
 }

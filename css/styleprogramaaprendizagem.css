@@ -1,0 +1,21 @@
+.imgaprendizagem1 {
+    border-radius: 8px;
+    width: 450px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+}
+.imgaprendizagem2 {
+    border-radius: 8px;
+    width: 650px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+.imgaprendizagem3 {
+    border-radius: 8px;
+    width: 750px;
+    height: 350px;
+    float: right;
+    margin-right: 0px;
+}

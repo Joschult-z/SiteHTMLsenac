@@ -1,0 +1,36 @@
+body {
+    background-image: url("../imagens/fundo.jpg");
+}
+
+hr {
+    background-color: white;
+    height: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.logotiposenac2 {
+    border-radius: 8px;
+    width: 68px;
+    height: 68px;
+    float: left;
+    margin-right: 10px;
+}

@@ -1,0 +1,28 @@
+.imgrsti1 {
+    border-radius: 8px;
+    width: 450px;
+    height: 270px;
+    float: left;
+    margin-right: 10px;
+}
+.mercadobrasileirorsti {
+    border-radius: 8px;
+    width: 1000px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+}
+.botao1 {
+    border-radius: 8px;
+    width: 450px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+}
+.botao2 {
+    border-radius: 8px;
+    width: 450px;
+    height: 250px;
+    float: right;
+    margin-right: 10px;
+}

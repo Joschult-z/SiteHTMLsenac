@@ -1,0 +1,15 @@
+.imgtecinfo1 {
+    border-radius: 8px;
+    width: 500px;
+    height: 350px;
+    float: left;
+    margin-right: 10px;
+}
+
+.imgtecinfo2 {
+    border-radius: 8px;
+    width: 400px;
+    height: 450px;
+    float: left;
+    margin-right: 10px;
+}
