@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logotiposenac {
+    border-radius: 8px;
+    width: 33%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.icons {
+    width: 5%;
+    height: auto;
+    float: center;
+    margin-right: 10px;
+}
+
+#divcima {
+    width: 50%;
+    height: auto;
+}
+
+#divbaixo {
+    width: 50%;
+}

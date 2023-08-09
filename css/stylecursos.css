@@ -1,44 +1,44 @@
 .imgadm {
     border-radius: 8px;
-    width: 500px;
-    height: 270px;
+    width: 33%;
+    height: auto;
     float: left;
     margin-right: 10px;
 }
 
 .imgtecinfo {
     border-radius: 8px;
-    width: 500px;
-    height: 380px;
+    width: 33%;
+    height: auto;
     float: left;
     margin-right: 10px;
 }
 
 .imgtecdev {
     border-radius: 8px;
-    width: 500px;
-    height: 270px;
+    width: 33%;
+    height: auto;
     float: left;
     margin-right: 10px;
 }
 .imgrsti1 {
     border-radius: 8px;
-    width: 500px;
-    height: 270px;
+    width: 33%;
+    height: auto;
     float: left;
     margin-right: 10px;
 }
 .imgrsti2 {
     border-radius: 8px;
-    width: 533px;
-    height: 150px;
+    width: 33%;
+    height: auto;
     float: left;
     margin-right: 10px;
 }
 .imgrsti3{
     border-radius: 8px;
-    width: 533px;
-    height: 250px;
+    width: 33%;
+    height: auto;
     float: left;
     margin-right: 10px;
 }

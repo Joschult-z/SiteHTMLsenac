@@ -1,36 +1,77 @@
+
 body {
     background-image: url("../imagens/fundo.jpg");
+}
+
+#centro{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 hr {
     background-color: white;
     height: 5px;
 }
-
-h1 {
+h1{
     text-align: center;
-    font-weight: bold;
+}
+nav {
+    display: flex;
+    justify-content: center;
 }
 
-h2 {
-    text-align: center;
-    font-weight: bold;
+#menu {
+    width: 100%;
+    background-color: #66A7D6;
+    font-family: Arial;
 }
 
-h3 {
-    text-align: center;
-    font-weight: bold;
+#menu ul {
+    list-style: none;
 }
 
-h4 {
+#menu ul li {
+    width: 120px;
+    float: left;
+}
+
+#menu a {
+    display: flex;
+    text-decoration: none;
     text-align: center;
-    font-weight: bold;
+    color: #FFF;
+}
+
+#menu ul ul {
+    position: absolute;
+    display: none;
+}
+
+#menu ul li:hover ul {
+    display: block;
+}
+
+#menu a:hover {
+    background-color: #f4f4f4;
+    color: #555;
+}
+
+#menu ul ul li {
+    float: none;
+    border-bottom: solid 1px #CCC;
+}
+
+#menu ul ul li a {
+    background-color: black;
 }
 
 .logotiposenac2 {
     border-radius: 8px;
-    width: 68px;
-    height: 68px;
+    width: auto;
+    height: auto;
     float: left;
     margin-right: 10px;
 }

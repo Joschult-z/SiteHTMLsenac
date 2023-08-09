@@ -12,17 +12,13 @@
     float: left;
     margin-right: 10px;
 }
-.botao1 {
-    border-radius: 8px;
-    width: 450px;
-    height: 250px;
-    float: left;
-    margin-right: 10px;
+#divbotao{
+    width: 100%;
+    display: flex;
 }
-.botao2 {
-    border-radius: 8px;
-    width: 450px;
-    height: 250px;
-    float: right;
-    margin-right: 10px;
+#divbotao1{
+    width: 50%;
+}
+#divbotao2{
+    width: 50%;
 }

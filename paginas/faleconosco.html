@@ -7,18 +7,19 @@
     <link rel="stylesheet" type="text/css" href="../css/estilogeral.css" />
     <link rel="shotcut icon" type="image/x-icon" href="../imagens/senac.ico" />
     <link rel="stylesheet" type="text/css" href="../css/styleFaleConosco.css" />
-
     <title>Fale Conosco Senac</title>
 </head>
 
 <body>
-    <img class="logotiposenac2" src="../imagens/logotiposenac2.jpg" alt="logo" title="senac">
-
-    <h1> <a href="../index.html">&bull; Página Inicial</a></h1>
-	<h2>
-		<a href="Cursos.html">| Cursos |</a>
-		<a href="informações.html">Informações |</a>
-		<a href="faleconosco.html">Fale Conosco |</a></h2>
+    <img class="logotiposenac2" src="../imagens/senac_logo_new.png" alt="logo" title="senac">
+    <nav id="menu">
+        <ul>
+            <li><a href="../index.html">Página Inicial</a></li>
+            <li><a href="/paginas/Cursos.html">Cursos</a></li>
+            <li><a href="/paginas/informacoes.html">Informações</a></li>
+            <li><a href="/paginas/faleconosco.html">Fale Conosco</a></li>
+        </ul>
+    </nav>
     <hr>
     <h1>Fale Conosco</h1>
     <center>
@@ -26,27 +27,26 @@
         Importante: preencha corretamente os campos do formulário a seguir, para que possamos lhe dar um
         retorno.<br>
     </center>
-        <h3>Todos os campos são obrigatorios.</h3>
+    <h3>Todos os campos são obrigatorios.</h3>
     <form action="../index.html" method="post">
         <table class="tabela">
             <tr>
-                </Thead>
                 <tbody>
                     <tr>
-                        <td align="right">
+                        <td>
                             <h3><label>Nome Completo:</label></h3>
                         </td>
-                        <td align="left">
+                        <td>
                             <input type="text" name="nome completo" required maxlength="20" />
                         </td>
                     </tr><!--Fim da linha-->
                     <tr><!--inicio da nova linha-->
-                        <td align="right">
+                        <td>
                             <h3>
                                 <label>UF</label>
                             </h3>
                         </td>
-                        <td align="left">
+                        <td>
                             <select name="UF" required>
                                 <option selected="" value="">Selecione o Estado (UF)</option>
                                 <option value="Acre">Acre</option>
@@ -80,84 +80,84 @@
                         </td>
                     </tr><!--Fim da linha-->
                     <tr><!--inicio da nova linha-->
-                        <td align="right">
+                        <td>
                             <h3>
                                 <label>Cidade:</label>
                             </h3>
                         </td>
-                        <td align="left">
+                        <td>
                             <input type="text" name="cidade" required size="30" />
                         </td>
                     </tr><!--Fim da linha-->
                     <tr><!--inicio da nova linha-->
-
-                        <td align="right">
+                        <td>
                             <h3><label>E-mail:</label></h3>
                         </td>
-                        <td align="left">
-                            <input type="email" name="email" required placeholder="nome@dominio.com">/
+                        <td>
+                            <input type="email" name="email" required placeholder="nome@dominio.com">
                         </td>
                     </tr><!--Fim da linha-->
                     <tr><!--inicio da nova linha-->
 
-                        <td align="right">
+                        <td>
                             <h3><label>Confirme E-mail:</label></h3>
                         </td>
-                        <td align="left">
-                            <input type="email" name="confirmemail" required placeholder="nome@dominio.com">/
+                        <td>
+                            <input type="email" name="confirmemail" required placeholder="nome@dominio.com">
                         </td>
                     </tr><!--Fim da linha-->
                     <tr><!--inicio da nova linha-->
 
-                        <td align="right">
+                        <td>
                             <h3><label>Telefone:</label></h3>
                         </td>
-                        <td align="left">
+                        <td>
                             <input type="tel" name="telefone" required size="30" />
                         </td>
                     </tr><!--Fim da linha-->
                     <tr><!--inicio da nova linha-->
-                        <td align="right">
+                        <td>
                             <h3>
                                 <label>Modalidade:</label>
                             </h3>
                         </td>
-                        <td align="left">
+                        <td>
                             <input type="text" name="modalidade" required size="30" />
                         </td>
                     </tr><!--Fim da linha-->
                     <tr><!--inicio da nova linha-->
-                        <td align="right">
+                        <td>
                             <h3>
                                 <label>Assunto:</label>
                             </h3>
                         </td>
-                        <td align="left">
+                        <td>
                             <input type="text" name="assunto" required size="30" />
                         </td>
                     </tr><!--Fim da linha-->
                     <tr><!--inicio da nova linha-->
-                        <td align="right">
+                        <td>
                             <h3><label>Mensagem:</label></h3>
                         </td>
-                        <td align="left">
+                        <td>
                             <textarea name="obs" rows="4" cols="30">
                             </textarea>
                         </td>
                     <tr><!--inicio da nova linha-->
-                        <td align="right">
+                        <td>
                             <h3>
                                 <label>CPF:</label>
                             </h3>
                         </td>
-                        <td align="left">
+                        <td>
                             <input type="text" name="cpf" pattern="[0-9]{1,11}" required>
                         </td>
                     </tr><!--Fim da linha-->
+                </tbody>
+            </tr>
+        </table>
     </form>
-                <br />
-                <input type="submit" value="Enviar" />
-                <input type="reset" value="Limpar" />
+    <input type="submit" value="Enviar" />
 </body>
 
 </html>

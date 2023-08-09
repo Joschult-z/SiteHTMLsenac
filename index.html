@@ -8,18 +8,23 @@
 	<link rel="stylesheet" type="text/css" href="./css/estiloindex.css" />
 	<link rel="stylesheet" type="text/css" href="./css/menuindex.css" />
 	<link rel="stylesheet" type="text/css" href="./css/estilogeral.css" />
+	<link rel="stylesheet" type="text/css" href="./css/noticias.css" />
+
 	<link rel="shotcut icon" type="image/x-icon" href="./imagens/senac.ico" />
 </head>
+<img class="logotiposenac2" src="imagens/senac_logo_new.png" alt="logo" title="senac">
 
 <body> <!-- Conteúdo que vai ser colocado na página-->
 	<!-- Título centralizado -->
-	<img class="logotiposenac2" src="imagens/logotiposenac2.jpg" alt="logo" title="senac">
-	<h2>
-		<a href="index.html">&bull; Página Inicial </a><br>
-		<a href="paginas/Cursos.html">| Cursos |</a>
-		<a href="paginas/informações.html">Informações |</a>
-		<a href="paginas/faleconosco.html">Fale Conosco |</a>
-	</h2>
+	<br>
+	<nav id="menu">
+		<ul>
+			<li><a href="index.html">Página Inicial</a></li>
+			<li><a href="/paginas/Cursos.html">Cursos</a></li>
+			<li><a href="paginas/informacoes.html">Informações</a></li>
+			<li><a href="/paginas/faleconosco.html">Fale Conosco</a></li>
+		</ul>
+	</nav>
 	<hr>
 	<img class="imgsenactech" src="imagens/senactech.jpg" alt="senactech" title="senactech">
 	<h1>Historia da Escola</h1>
@@ -48,71 +53,146 @@
 	<br>
 	<br>
 	<hr>
-	<a href="paginas/cursoslivres.html">
-		<img class="imgcursos" src="imagens/cursoslivresimg.jpg" alt="Cursos Livres">
-	</a>
-	<a><img class="imgcursos" src="imagens/ensinomedioimg.jpg" alt="Ensino Médio">
-	</a>
-	<a> <img class="imgcursos" src="imagens/cursostecnicosimg.jpg" alt="Cursos Técnicos">
-	</a>
-	<a> <img class="imgcursos" src="imagens/graduação.jpg" alt="Graduação">
-	</a>
-	<hr>
-	<br>
-	<br>
+	<div class="divpai"><!--Inicio Div pai-->
+		<div class="divimg"><!--
+			<a href="paginas/cursoslivres.html">
+			</a>-->
+			<a href="paginas/cursoslivres.html"><img src="imagens/cursolivreicon.jpeg" alt="Cursos Livres"></a>
+			<h3>Cursos Livres</h3>
+			Capacitações em 18 áreas<br>
+			do conhecimento, com<br>
+			rápida inserção no mercado<br>
+			profissional.
 
+		</div>
+		<div class="divimg">
+			<a><img src="imagens/ensinomedioicon.jpeg" alt="Ensino Médio">
+				<h3>Ensino Médio</h3>
+				Com metodologia integrada<br>
+				ao Técnico em Informática<br>
+				para internet, o Ensino
+				Médio Senac oportuniza<br>
+				uma vivência educacional<br>
+				desafiadora, preparando o<br>
+				estudando para o ENEM,<br>
+				vestibular e o mundo do<br>
+				trabalho.
+			</a>
+		</div>
+		<div class="divimg">
+			<a> <img src="imagens/cursostecnicosicon.jpeg" alt="Cursos Técnicos">
+				<h3>Cursos Técnicos</h3>
+				Adequados às exigências<br>
+				do mundo profissional, os<br>
+				cursos Técnicos são<br>
+				focados na aprendizagem<br>
+				prática.
+			</a>
+		</div>
+		<div class="divimg">
+			<a> <img src="imagens/graduaçãoicon.jpeg" alt="Graduação">
+				<h3>Graduação</h3>
+				Cursos tecnólogos e de<br>
+				qualidade bacharelado com qualidade<br>
+				reconhecida pelo MEC,<br>
+				certificações intermediárias<br>
+				e 95% de satisfação dos<br>
+				alunos.
+			</a>
+		</div>
+	</div><!-- Final div pai-->
+	<hr>
 	<h1> Depoimentos </h1>
-	<h2>Marcelly Marin</h2>
-	<p class="pcenter">
-		<img class="ileft" src="imagens/depoimento1.jpg" alt="depoimento1" title="depoimento1">
-		Ao cursar Informática Intensivo no Senac, tive uma experiência enriquecedora. Além de adquirir conhecimentos
-		práticos e teóricos relevantes para a área, pude contar com uma equipe de professores dedicados e experientes,
-		que contribuíram significativamente para o meu crescimento tanto pessoal quanto profissional.
-		O curso no Senac me proporcionou um aprendizado abrangente, cobrindo diversos processos e tecnologias essenciais
-		no campo da informática. Essa base sólida foi fundamental para me destacar no mercado de trabalho e garantir uma
-		posição no meu emprego atual.
-		Destaco também a oportunidade de conhecer professores incríveis, cujo conhecimento e paixão pela área me
-		inspiraram e incentivaram a buscar constantemente aprimoramento. A interação com eles foi essencial para ampliar
-		minha perspectiva e entender as demandas do setor.
-		Em resumo, minha experiência no Senac foi positiva e gratificante. O curso intensivo de Informática me
-		proporcionou o conhecimento e as habilidades necessárias para minha trajetória profissional, além de ter sido um
-		ambiente propício para o crescimento pessoal e a construção de uma rede de contatos valiosa.
-	</p>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+	<div id="divdepoimentos"><!--Inicio div depoimentos-->
+		<div id="divdep1"><!--Inicio div dep1-->
+			<div id="divimgdep1">
+				<img class="ileft" src="imagens/dep1.png" alt="depoimento1" title="depoimento1">
+			</div>
+			<div id="divtextdep1">
+				<h2>Marcelly Marin</h2>
+				Ao cursar Informática Intensivo no Senac, tive uma experiência enriquecedora. Além de adquirir
+				conhecimentos
+				práticos e teóricos relevantes para a área, pude contar com uma equipe de professores dedicados e
+				experientes,
+				que contribuíram significativamente para o meu crescimento tanto pessoal quanto profissional.
+				O curso no Senac me proporcionou um aprendizado abrangente, cobrindo diversos processos e tecnologias
+				essenciais
+				no campo da informática.
+			</div>
+		</div><!--Fim div dep1-->
+
+		<div id="divdep2"><!--Inicio div dep2-->
+			<div id="divimgdep2"><!--Inicio div imgdep2-->
+				<img class="ileft" src="imagens/paula1.png" alt="paula" title="paula">
+			</div><!--Fim div imgdep2-->
+			<div id="divtextdep2">
+				<h2>Paula Fernandes Marques da Rosa</h2>
+				Os cursos do senac são muito úteis, ótimos professores, eles nos orientam sem nos dar as respostas
+				apenas
+				nos
+				guiam e e fazem isso de maneira excelente, além de toda a ajuda que temos com a instituição do senac que
+				nos
+				ajuda se acontece algum problema. O curso técnico de recursos humanos, que foi minha escolha, nos
+				proporciona
+				uma visão do funcionamento sistêmicos das organizações. Além disso, desenvolvemos capacidades
+				importantes
+				para o
+				nosso desempenho como planejamento, organização, comunicação, entre outras tantas que irão nos apoiar
+				para
+				nosso
+				crescimento acadêmico e profissional.
+			</div>
+		</div><!--Fim div dep2-->
+		<hr>
+	</div><!--Fim da div depoimentos-->
 	<hr>
-	<h2>Paula Fernandes Marques da Rosa</h2>
-	<p class="pcenter">
-		<img class="ileft" src="imagens/paula.jpg" alt="paula" title="paula">
-		Os cursos do senac são muito úteis, ótimos professores, eles nos orientam sem nos dar as respostas apenas nos
-		guiam e e fazem isso de maneira excelente, além de toda a ajuda que temos com a instituição do senac que nos
-		ajuda se acontece algum problema. O curso técnico de recursos humanos, que foi minha escolha, nos proporciona
-		uma visão do funcionamento sistêmicos das organizações. Além disso, desenvolvemos capacidades importantes para o
-		nosso desempenho como planejamento, organização, comunicação, entre outras tantas que irão nos apoiar para nosso
-		crescimento acadêmico e profissional.
-	</p>
-	<br>
-	<br>
-	<br>
-	<br>
-	<hr>
-	<h2>Camila Y Castro de Oliveira</h2>
-	<p class="pcenter">
-		<img class="ileft" src="imagens/camila.jpg" alt="paula" title="paula">
-		Aprender um novo idioma é muito desafiador, além dá dúvida sobre qual língua escolher tem a dificuldade de
-		aprender a gramática e linguagem. Mas a metodologia dos professores e o sistema de ensino é completo, eles
-		tornam tudo fácil e de forna intuitiva, no final não restam dúvidas e você acaba se sentindo pronto pra
-		conquistar os seus objetivos.
-	</p>
-	<br>
-	<br>
-	<br>
-	<br>
-	<hr>
+	<h1>Noticias</h1>
+	<div id="divnoticias"><!--Inicio div noticias-->
+		<div id="divnoticias1_1">
+
+			<div id="noticia1"><!--Inicio div noticia1-->
+				<div id="divimgnoticia1">
+					<img id="imgnoticia" src="imagens/noticia1.jpeg" alt="noticia1" title="Noticías">
+				</div>
+				<div id="textnoticia1">
+					Curso Técnico em Informática do Senac Gravataí aborda linguagens de programação
+				</div>
+
+			</div><!--Fim div noticia1-->
+
+			<div id="noticia2"><!--Inicio div noticia2-->
+				<div id="divimgnoticia2">
+					<img id="imgnoticia" src="imagens/noticia2.png" alt="noticia2" title="Noticías">
+				</div>
+				<div id="textnoticia2">
+					As diversas possibilidades de atuação do administrador
+				</div>
+			</div><!--Fim div noticia2-->
+		</div>
+		<div id="divnoticias1_2">
+
+			<div id="noticia3"><!--Inicio div noticia3-->
+				<div id="divimgnoticia3">
+					<img id="imgnoticia" src="imagens/noticia3.jpeg" alt="noticia3" title="Noticías">
+				</div>
+				<div id="textnoticia3">
+					Senac Santana do Livramento participa do Festival Binacional de Enogastronomia
+				</div>
+			</div><!--Fim div noticia3-->
+
+			<div id="noticia4"><!--Inicio div noticia4-->
+				<div id="divimgnoticia4">
+					<img id="imgnoticia" src="imagens/noticia4.jpeg" alt="noticia4" title="Noticías">
+				</div>
+				<div id="textnoticia4">
+					Categoria escola de idiomas: Senac Torres recebe o prêmio Destaque Torres 2023
+				</div>
+			</div><!--Fim div noticia4-->
+		</div>
+	</div><!--Fim div noticias-->
+	<footer>
+		<h2 class="dev"><a>Developed by João Schultz</a></h2>
+	</footer>
 </body>
 
 </html>
